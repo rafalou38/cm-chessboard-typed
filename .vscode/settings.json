@@ -1,0 +1,7 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.js": "${capture}.d.ts, ${capture}.d.ts.map"
+  },
+  "explorer.fileNesting.expand": false
+}
