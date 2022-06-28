@@ -15,7 +15,8 @@
   "browser": "./src/cm-chessboard/Chessboard.js",
   "scripts": {
     "test": "tput setaf 4;echo 'Run test/index.html in your browser for unit testing.'; echo ''; exit 0",
-    "prepare": "tsc"
+    "prepare": "tsc",
+    "preprepare": "rimraf -r ./src/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/shaack/cm-chessboard#readme",
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "teevi": "^2.1.9",
     "typescript": "^4.7.4"
   }
